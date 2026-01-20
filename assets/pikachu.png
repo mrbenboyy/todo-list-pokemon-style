@@ -1,0 +1,76 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .pixel { shape-rendering: crispEdges; }
+  </style>
+  
+  <!-- Body - Yellow -->
+  <rect class="pixel" x="20" y="12" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="12" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="28" y="12" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="32" y="12" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="12" width="4" height="4" fill="#FFD700"/>
+  
+  <rect class="pixel" x="16" y="16" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="20" y="16" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="16" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="28" y="16" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="32" y="16" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="16" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="40" y="16" width="4" height="4" fill="#FFD700"/>
+  
+  <!-- Face -->
+  <rect class="pixel" x="16" y="20" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="20" y="20" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="20" width="4" height="4" fill="#000000"/>
+  <rect class="pixel" x="28" y="20" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="32" y="20" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="20" width="4" height="4" fill="#000000"/>
+  <rect class="pixel" x="40" y="20" width="4" height="4" fill="#FFD700"/>
+  
+  <rect class="pixel" x="16" y="24" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="20" y="24" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="24" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="28" y="24" width="4" height="4" fill="#FF0000"/>
+  <rect class="pixel" x="32" y="24" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="24" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="40" y="24" width="4" height="4" fill="#FFD700"/>
+  
+  <!-- Body continued -->
+  <rect class="pixel" x="20" y="28" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="28" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="28" y="28" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="32" y="28" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="28" width="4" height="4" fill="#FFD700"/>
+  
+  <rect class="pixel" x="16" y="32" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="20" y="32" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="32" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="28" y="32" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="32" y="32" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="32" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="40" y="32" width="4" height="4" fill="#FFD700"/>
+  
+  <!-- Arms -->
+  <rect class="pixel" x="12" y="36" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="16" y="36" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="40" y="36" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="44" y="36" width="4" height="4" fill="#FFD700"/>
+  
+  <!-- Legs -->
+  <rect class="pixel" x="20" y="36" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="24" y="36" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="32" y="36" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="36" width="4" height="4" fill="#FFD700"/>
+  
+  <rect class="pixel" x="16" y="40" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="20" y="40" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="36" y="40" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="40" y="40" width="4" height="4" fill="#FFD700"/>
+  
+  <!-- Tail -->
+  <rect class="pixel" x="44" y="12" width="4" height="4" fill="#8B4513"/>
+  <rect class="pixel" x="48" y="8" width="4" height="4" fill="#8B4513"/>
+  <rect class="pixel" x="48" y="12" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="52" y="4" width="4" height="4" fill="#FFD700"/>
+  <rect class="pixel" x="52" y="8" width="4" height="4" fill="#FFD700"/>
+</svg>

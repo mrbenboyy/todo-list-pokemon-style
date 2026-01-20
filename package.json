@@ -1,0 +1,18 @@
+{
+  "name": "pokemon-task-manager",
+  "version": "1.0.0",
+  "description": "A retro Pokemon-inspired task management desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["electron", "pokemon", "task-manager", "retro"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}

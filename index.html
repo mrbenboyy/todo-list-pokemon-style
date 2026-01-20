@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Task Manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Main Container -->
+  <div class="game-container">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-content">
+        <div class="header-icon pikachu-icon">⚡</div>
+        <h1 class="title">POKEMON TASK MANAGER</h1>
+        <div class="header-icon pokeball-icon">●</div>
+      </div>
+    </div>
+
+    <!-- Main View Container -->
+    <div class="main-view" id="mainView">
+      <!-- Categories View -->
+      <div class="categories-view" id="categoriesView">
+        <div class="view-header">
+          <h2>GOALS & CATEGORIES</h2>
+          <button class="pixel-button add-btn" id="addCategoryBtn">
+            <span class="btn-icon">+</span> NEW CATEGORY
+          </button>
+        </div>
+        <div class="scrollable-content">
+          <div class="categories-grid" id="categoriesGrid">
+            <!-- Categories will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Tasks View -->
+      <div class="tasks-view hidden" id="tasksView">
+        <div class="view-header">
+          <button class="pixel-button back-btn" id="backBtn">
+            <span class="btn-icon">←</span> BACK
+          </button>
+          <h2 id="categoryTitle">TASKS</h2>
+          <button class="pixel-button add-btn" id="addTaskBtn">
+            <span class="btn-icon">+</span> NEW TASK
+          </button>
+        </div>
+        <div class="scrollable-content">
+          <div class="tasks-list" id="tasksList">
+            <!-- Tasks will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-icon">★</div>
+        <span class="footer-text">PRESS START TO BEGIN</span>
+        <div class="footer-icon">★</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Adding/Editing Category -->
+  <div class="modal hidden" id="categoryModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="categoryModalTitle">NEW CATEGORY</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="categoryName">NAME:</label>
+          <input type="text" id="categoryName" class="pixel-input">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="pixel-button" id="saveCategoryBtn">SAVE</button>
+        <button class="pixel-button cancel-btn" id="cancelCategoryBtn">CANCEL</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Adding/Editing Task -->
+  <div class="modal hidden" id="taskModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="taskModalTitle">NEW TASK</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="taskTitle">TITLE:</label>
+          <input type="text" id="taskTitle" class="pixel-input">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="pixel-button" id="saveTaskBtn">SAVE</button>
+        <button class="pixel-button cancel-btn" id="cancelTaskBtn">CANCEL</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirmation Dialog -->
+  <div class="modal hidden" id="confirmModal">
+    <div class="modal-content confirm-dialog">
+      <div class="modal-header">
+        <h3>CONFIRM ACTION</h3>
+      </div>
+      <div class="modal-body">
+        <p id="confirmMessage">Are you sure?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="pixel-button" id="confirmYesBtn">YES</button>
+        <button class="pixel-button cancel-btn" id="confirmNoBtn">NO</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
