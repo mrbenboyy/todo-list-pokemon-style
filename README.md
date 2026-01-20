@@ -37,7 +37,7 @@ Before running the application, make sure you have:
 
 1. Navigate to the project directory:
    ```
-   cd "c:\Users\mrben\Desktop\electron.js\todo list"
+   cd "c:\Users\hakim\Desktop\electron.js\todo list"
    ```
 
 2. Install dependencies:
